@@ -148,6 +148,9 @@ Uni_algo_HP_dict = {
     'Series2Graph': {
         'periodicity': [1, 2, 3]
     },
+    'PCA': {
+        'n_components': [0.25, 0.5, 0.75, None]
+    },
     'Sub_PCA': {
         'periodicity': [1, 2, 3],
         'n_components': [0.25, 0.5, 0.75, None]
@@ -246,6 +249,7 @@ Optimal_Uni_algo_HP_dict = {
     'SAND': {'periodicity': 1},
     'Series2Graph': {'periodicity': 1},
     'SR': {'periodicity': 1},
+    'PCA': {'n_components': None,},
     'Sub_PCA': {'periodicity': 1, 'n_components': None},        
     'Sub_HBOS': {'periodicity': 1, 'n_bins': 10},
     'Sub_OCSVM': {'periodicity': 2, 'kernel': 'rbf'},        

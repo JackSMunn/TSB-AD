@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
     write_csv = []
     for filename in file_list:
-        if os.path.exists(target_dir+'/'+filename.split('.')[0]+'.npy'): continue
+        # Always process - removed the skip check
         print('Processing:{} by {}'.format(filename, args.AD_Name))
 
         file_path = os.path.join(args.dataset_dir, filename)
